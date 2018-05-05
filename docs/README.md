@@ -8,4 +8,4 @@ Flat Design Skin for Steam
 4. Restart Steam and enjoy!
 
 ### Preview
-![Preview](https://i.imgur.com/1im4QTM.png)
+![Preview](https://raylee930.pw/flat-steam/preivew.png)
