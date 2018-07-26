@@ -175,6 +175,11 @@
 			"text"		"#steam_menu_add_friend"	
 			"shellcmd"		"steam://friends/add"	
 		}
+		"EditProfileNameAvatar"	
+		{
+			"text"		"#steam_menu_edit_profile_name_avatar"	
+			"shellcmd"		"steam://url/SteamIDEditPage"	
+		}
 		"Divider"	
 		{
 		}
@@ -210,6 +215,13 @@
 		{
 			"text"		"#friends_busy"	
 			"shellcmd"		"steam://friends/status/busy"	
+			"checkable"		"1"	
+			"autocheck"		"0"	
+		}
+		"Invisible"	
+		{
+			"text"		"#friends_invisible"	
+			"shellcmd"		"steam://friends/status/invisible"	
 			"checkable"		"1"	
 			"autocheck"		"0"	
 		}
