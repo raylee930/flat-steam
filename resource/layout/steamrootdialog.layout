@@ -46,13 +46,13 @@
 			"textAlignment"		"center"	
 			"command"		"OpenSupportAlertWindow"	
 		}
-		"XPVistaAlert"	
+		"EOLAlert"	
 		{
 			"ControlName"		"Button"	
-			"labelText"		"#Steam_XPVistaAlert"	
+			"labelText"		"#Steam_EOLAlert"	
 			"style"		"support_alert"	
 			"textAlignment"		"center"	
-			"command"		"OpenXPVistaAlertWindow"	
+			"command"		"OpenEOLAlertWindow"	
 		}
 		"ParentalLockButton"	
 		{
@@ -752,6 +752,16 @@
 			"margin-left"		"11"	
 			"spacing"		"-7"	
 		}
+		"place"	[$OSX]
+		{
+			"control"		"universe_label, EOLAlert, SupportAlert"	
+			"spacing"		"8"	
+			"start"		"frame_maximize"	
+			"align"		"left"	
+			"margin-top"		"-4"	
+			"margin-left"		"13"	
+			"height"		"24"	
+		}
 		"place"	[!$OSX]
 		{
 			"control"		"fullscreen"	
@@ -817,9 +827,9 @@
 			"height"		"24"	
 			"width"		"44"	
 		}
-		"place"	
+		"place"	[!$OSX]
 		{
-			"control"		"universe_label, XPVistaAlert, SupportAlert"	
+			"control"		"universe_label, EOLAlert, SupportAlert"	
 			"spacing"		"8"	
 			"align"		"right"	
 			"end-right"		"ParentalLockButton"	

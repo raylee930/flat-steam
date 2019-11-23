@@ -222,11 +222,11 @@
 		"TextEntry.IMEBGColor"		"225 225 225 255"	
 		"TextEntry.IMEFGColor"		"black"	
 		"Friends.InGameColor"		"144 186 60 255"	
-		"Friends.InGameHoverColor"		"167 203 94 255"	
+		"Friends.InGameHoverColor"		"144 186 60 255"	
 		"Friends.OnlineColor"		"84 165 196 255"	
-		"Friends.OnlineHoverColor"		"122 185 209 255"	
+		"Friends.OnlineHoverColor"		"84 165 196 255"	
 		"Friends.OfflineColor"		"127 127 127 255"	
-		"Friends.OfflineHoverColor"		"152 152 152 255"	
+		"Friends.OfflineHoverColor"		"127 127 127 255"	
 		"Friends.PanelDefault"		"Label"	
 		"Friends.PanelOver"		"Text"	
 		"Friends.PanelSelected"		"ClientBG"	
@@ -260,10 +260,10 @@
 		"ClientInnerBG"		"10 10 10 255"	
 		"ClientInnerItemsBG"		"0 0 0 150"	
 		"ClientInnerTextColor"		"205 205 205 255"	
-		"ClientInnerTextColorHalf"		"205 205 205 96.9"	
+		"ClientInnerTextColorHalf"		"205 205 205 255"	
 		"GameItem_Installed"		"205 205 205 255"	
 		"GameItem_Installed:hover"		"255 255 255 255"	
-		"GameItem_Uninstalled"		"205 205 205 96.9"	
+		"GameItem_Uninstalled"		"205 205 205 255"	
 		"GameItem_UnInstalled:hover"		"255 255 255 255"	
 		"cButton"		"80 80 80 255"	
 		"cButtonHover"		"100 100 100 255"	
@@ -3186,8 +3186,7 @@
 			"padding-right"		"28"	
 			"render_bg"	
 			{
-				"1"		"image( x0+48, y0, x1, y1, graphics/glow_friendslist )"	
-				"2"		"image( x1-30, y0+20, x1, y1, graphics/icon_friendslist )"	
+				"1"		"image( x1-30, y0+20, x1, y1, graphics/icon_friendslist )"	
 			}
 		}
 		"view_friends"	[$OSX]
@@ -3202,8 +3201,7 @@
 			"padding-right"		"28"	
 			"render_bg"	
 			{
-				"1"		"image( x0+48, y0, x1, y1, graphics/glow_friendslist )"	
-				"2"		"image( x1-30, y0+20, x0, y0, graphics/icon_friendslist )"	
+				"1"		"image( x1-30, y0+20, x0, y0, graphics/icon_friendslist )"	
 			}
 		}
 		"view_friends:Hover"	
@@ -3211,8 +3209,7 @@
 			"textcolor"		"white"	
 			"render_bg"	
 			{
-				"1"		"image( x0+48, y0, x1, y1, graphics/glow_friendslist )"	
-				"2"		"image( x1-30, y0+20, x1, y1, graphics/icon_friendslist_over )"	
+				"1"		"image( x1-30, y0+20, x1, y1, graphics/icon_friendslist_over )"	
 			}
 		}
 		"view_friends:disabled"	
@@ -3502,11 +3499,11 @@
 		"TextEntry.IMEBGColor"		"225 225 225 255"	
 		"TextEntry.IMEFGColor"		"black"	
 		"Friends.InGameColor"		"144 186 60 255"	
-		"Friends.InGameHoverColor"		"167 203 94 255"	
+		"Friends.InGameHoverColor"		"144 186 60 255"	
 		"Friends.OnlineColor"		"84 165 196 255"	
-		"Friends.OnlineHoverColor"		"122 185 209 255"	
+		"Friends.OnlineHoverColor"		"84 165 196 255"	
 		"Friends.OfflineColor"		"127 127 127 255"	
-		"Friends.OfflineHoverColor"		"152 152 152 255"	
+		"Friends.OfflineHoverColor"		"127 127 127 255"	
 		"Friends.PanelDefault"		"Label"	
 		"Friends.PanelOver"		"Text"	
 		"Friends.PanelSelected"		"ClientBG"	
@@ -3540,10 +3537,10 @@
 		"ClientInnerBG"		"10 10 10 255"	
 		"ClientInnerItemsBG"		"0 0 0 150"	
 		"ClientInnerTextColor"		"205 205 205 255"	
-		"ClientInnerTextColorHalf"		"205 205 205 96.9"	
+		"ClientInnerTextColorHalf"		"205 205 205 255"	
 		"GameItem_Installed"		"205 205 205 255"	
 		"GameItem_Installed:hover"		"255 255 255 255"	
-		"GameItem_Uninstalled"		"205 205 205 96.9"	
+		"GameItem_Uninstalled"		"205 205 205 255"	
 		"GameItem_UnInstalled:hover"		"255 255 255 255"	
 		"cButton"		"80 80 80 255"	
 		"cButtonHover"		"100 100 100 255"	
@@ -6466,8 +6463,7 @@
 			"padding-right"		"28"	
 			"render_bg"	
 			{
-				"1"		"image( x0+48, y0, x1, y1, graphics/glow_friendslist )"	
-				"2"		"image( x1-30, y0+20, x1, y1, graphics/icon_friendslist )"	
+				"1"		"image( x1-30, y0+20, x1, y1, graphics/icon_friendslist )"	
 			}
 		}
 		"view_friends"	[$OSX]
@@ -6482,8 +6478,7 @@
 			"padding-right"		"28"	
 			"render_bg"	
 			{
-				"1"		"image( x0+48, y0, x1, y1, graphics/glow_friendslist )"	
-				"2"		"image( x1-30, y0+20, x0, y0, graphics/icon_friendslist )"	
+				"1"		"image( x1-30, y0+20, x0, y0, graphics/icon_friendslist )"	
 			}
 		}
 		"view_friends:Hover"	
@@ -6491,8 +6486,7 @@
 			"textcolor"		"white"	
 			"render_bg"	
 			{
-				"1"		"image( x0+48, y0, x1, y1, graphics/glow_friendslist )"	
-				"2"		"image( x1-30, y0+20, x1, y1, graphics/icon_friendslist_over )"	
+				"1"		"image( x1-30, y0+20, x1, y1, graphics/icon_friendslist_over )"	
 			}
 		}
 		"view_friends:disabled"	
